@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>Django!</title>
+</head>
+<body>
+    <h1>Postdetails Page!</h1>
+    <p>{{ postlist.postname }}</p>
+    <p>{{ postlist.contents|linebreaks }}</p>
+    {% if postlist.mainphoto %}
+        <img src="{{ postlist.mainphoto.url }}">
+    {% endif %}
+    <p>{{ postlist.tag.names.0 }}</p>
+    <br>
+    <a href='https://tutorialdjango-bcrpr.run.goorm.io/blog/'>목록</a><br>
+    <div id="disqus_thread"></div>
+<script>
+(function() {
+var d = document, s = d.createElement('script');
+s.src = 'https://tutorialdjango.disqus.com/embed.js';
+s.setAttribute('data-timestamp', +new Date());
+(d.head || d.body).appendChild(s);
+})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<body>
+<html>
