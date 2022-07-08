@@ -8,6 +8,8 @@
 
 出版时间：2018-08
 
+中文翻译地址：https://blog.51cto.com/wenguonideshou/2407592
+
 这里可以下载书中用到的源码、模板和静态文件
 
 演示地址：https://tutorialdjango-ircmu.run.goorm.io/
